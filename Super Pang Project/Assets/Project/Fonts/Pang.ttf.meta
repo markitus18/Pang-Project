@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a25e28e017d9a094bb53bd68307a521f
+timeCreated: 1564505491
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PANG_TYPO
+  fontNames:
+  - PANG_TYPO
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

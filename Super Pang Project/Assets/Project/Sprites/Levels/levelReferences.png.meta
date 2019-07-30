@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 6977db042b241e441a21d7a10dc58e94
+timeCreated: 1564509621
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: levelReferences_0
+    21300002: levelReferences_1
+    21300004: levelReferences_2
+    21300006: levelReferences_3
+    21300008: levelReferences_4
+    21300010: levelReferences_5
+    21300012: levelReferences_6
+    21300014: levelReferences_7
+    21300016: levelReferences_8
+    21300018: levelReferences_9
+    21300020: levelReferences_10
+    21300022: levelReferences_11
+    21300024: levelReferences_12
+    21300026: levelReferences_13
+    21300028: levelReferences_14
+    21300030: levelReferences_15
+    21300032: levelReferences_16
+    21300034: levelReferences_17
+    21300036: levelReferences_18
+    21300038: levelReferences_19
+    21300040: levelReferences_20
+    21300042: levelReferences_21
+    21300044: levelReferences_22
+    21300046: levelReferences_23
+    21300048: levelReferences_24
+    21300050: levelReferences_25
+    21300052: levelReferences_26
+    21300054: levelReferences_27
+    21300056: levelReferences_28
+    21300058: levelReferences_29
+    21300060: levelReferences_30
+    21300062: levelReferences_31
+    21300064: levelReferences_32
+    21300066: levelReferences_33
+    21300068: levelReferences_34
+    21300070: levelReferences_35
+    21300072: levelReferences_36
+    21300074: levelReferences_37
+    21300076: levelReferences_38
+    21300078: levelReferences_39
+    21300080: levelReferences_40
+    21300082: levelReferences_41
+    21300084: levelReferences_42
+    21300086: levelReferences_43
+    21300088: levelReferences_44
+    21300090: levelReferences_45
+    21300092: levelReferences_46
+    21300094: levelReferences_47
+    21300096: levelReferences_48
+    21300098: levelReferences_49
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: levelReferences_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5192
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5192
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4976
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4976
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4760
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4760
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4544
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4544
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4328
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4328
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4112
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4112
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3896
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3896
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3680
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3680
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3464
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3464
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3248
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3248
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3032
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3032
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2816
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2816
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2600
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2600
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2384
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2384
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2168
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2168
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1952
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1952
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1736
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1736
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1520
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1520
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1304
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1304
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1088
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_39
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1088
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 872
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 872
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 656
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 656
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_44
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 440
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_45
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 440
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_47
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 224
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: levelReferences_49
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 8
+        width: 384
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
