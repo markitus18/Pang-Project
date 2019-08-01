@@ -8,7 +8,7 @@ public class Ball : MonoBehaviour
 
     public float gravityForce = 1.0f;
 
-    Vector2 velocity;
+    public Vector2 velocity;
 
     public float baseSpeedY = 200.0f;
     public float baseSpeedX = 35.0f;
@@ -16,16 +16,23 @@ public class Ball : MonoBehaviour
     bool exploded = false;
     Animator animator;
 
-    public GameObject explosionParticle;
+    public GameObject explosionParticle = null;
+    public GameObject ballDivisionPrefab = null;
+
+    SpriteRenderer spriteRenderer;
 
     // Use this for initialization
     void Start ()
     {
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         //TODO: update according to height
         velocity.y = baseSpeedY;
         velocity.x = baseSpeedX;
+
+        float currentHeight = transform.position.y - spriteRenderer.size.y / 2;
+        velocity.y = Mathf.Sqrt(baseSpeedY * baseSpeedY - 2 * gravityForce * currentHeight);
 	}
 	
 	// Update is called once per frame
@@ -33,13 +40,13 @@ public class Ball : MonoBehaviour
     {
         if (exploded == true) return;
 
-        if (transform.position.y < -48)
+        if (transform.position.y < (0 + spriteRenderer.sprite.rect.height / 2))
             velocity.y = baseSpeedY;
 
-        if (transform.position.x < -160)
+        if (transform.position.x < -184 + spriteRenderer.sprite.rect.width / 2)
             velocity.x = baseSpeedX;
 
-        if (transform.position.x > 160)
+        if (transform.position.x > 184 - spriteRenderer.sprite.rect.width / 2)
             velocity.x = -baseSpeedX;
 
         velocity.y -= gravityForce * Time.deltaTime;
@@ -58,7 +65,22 @@ public class Ball : MonoBehaviour
 
     public void Explode()
     {
+        //Spawn explosion particle
         Instantiate(explosionParticle, transform.position, transform.rotation);
+
+        //Spawn smaller balls (if any)
+        if (ballDivisionPrefab != null)
+        {
+            Vector3 position = transform.position;
+            SpriteRenderer renderer = ballDivisionPrefab.GetComponent<SpriteRenderer>();
+
+            GameObject ball1 = Instantiate(ballDivisionPrefab, position + new Vector3(renderer.size.x / 2, 0.0f, 0.0f), Quaternion.identity, gameObject.transform.parent);
+            GameObject ball2 = Instantiate(ballDivisionPrefab, position - new Vector3(renderer.size.x / 2, 0.0f, 0.0f), Quaternion.identity, gameObject.transform.parent);
+
+            ball2.GetComponent<Ball>().baseSpeedX = -ball2.GetComponent<Ball>().baseSpeedX;
+        }
+
+        //Destroy exploded ball
         Destroy(gameObject);
     }
 }
