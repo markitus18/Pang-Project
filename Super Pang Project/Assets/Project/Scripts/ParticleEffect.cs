@@ -19,4 +19,14 @@ public class ParticleEffect : MonoBehaviour {
     {
         Destroy(gameObject);
     }
+
+    public void InitialSetup(int ballSize, int ballColor)
+    {
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetInteger("ballSize", ballSize);
+            animator.SetInteger("ballColor", ballColor);
+        }
+    }
 }

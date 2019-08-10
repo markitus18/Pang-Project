@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
+    //Movement variables
+    [Header("Movement")]
     public float maxHeight = 200.0f;
 
     public float gravityForce = 1.0f;
@@ -13,13 +15,21 @@ public class Ball : MonoBehaviour
     public float baseSpeedY = 200.0f;
     public float baseSpeedX = 35.0f;
 
-    bool exploded = false;
+    //Ball attributes
+    [Header("Attributes")]
+    public int ballSize = 3;
+    public int ballColor = 0;
+    
+    //Ball components
     Animator animator;
+    SpriteRenderer spriteRenderer;
 
+    //Spawnable references
+    [Header("References")]
     public GameObject explosionParticle = null;
     public GameObject ballDivisionPrefab = null;
 
-    SpriteRenderer spriteRenderer;
+    bool exploded = false;
 
     // Use this for initialization
     void Start ()
@@ -66,7 +76,8 @@ public class Ball : MonoBehaviour
     public void Explode()
     {
         //Spawn explosion particle
-        Instantiate(explosionParticle, transform.position, transform.rotation);
+        GameObject explosionGO = Instantiate(explosionParticle, transform.position, transform.rotation);
+        explosionGO.GetComponent<ParticleEffect>().InitialSetup(ballSize, ballColor);
 
         //Spawn smaller balls (if any)
         if (ballDivisionPrefab != null)

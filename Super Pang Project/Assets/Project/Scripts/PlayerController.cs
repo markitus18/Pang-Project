@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour {
             {
                 shooting = true;
                 animator.SetBool("shooting", true);
-                Instantiate(hookPrefab, new Vector3(transform.position.x, transform.position.y - 16, transform.position.z), Quaternion.identity);
+                Instantiate(hookPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             }
         }
 
